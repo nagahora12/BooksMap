@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jp.androidbook.myapp.booksmap.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Favorite BookStore List"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop Name"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_name"
+        android:layout_alignBottom="@+id/textView_name"
+        android:layout_alignEnd="@+id/title"
+        android:width="150dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/textView_add"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/edit_add"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_add"
+        android:layout_below="@+id/edit_name"
+        android:layout_alignEnd="@+id/edit_name"
+        android:textSize="20dp"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell"
+        android:id="@+id/textView_tell"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:layout_above="@+id/edit_eval"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_tell"
+        android:layout_below="@+id/edit_add"
+        android:layout_alignEnd="@+id/edit_add"
+        android:textSize="20dp"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluation"
+        android:id="@+id/textView_evaluation"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/edit_eval"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_eval"
+        android:layout_below="@+id/edit_tell"
+        android:layout_alignEnd="@+id/edit_tell"
+        android:textSize="20dp"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coment"
+        android:id="@+id/textView_comet"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/edit_coment"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_coment"
+        android:layout_below="@+id/edit_eval"
+        android:layout_alignEnd="@+id/edit_eval"
+        android:textSize="20dp"
+        android:width="150dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regist!!"
+        android:id="@+id/regbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+
+        android:textColor="#000" />
+
+
+
+
+</RelativeLayout>
